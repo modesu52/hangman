@@ -38,4 +38,8 @@ public class Word {
         }
         return returnedWord.toString();
     }
+
+    public String getSecret() {
+        return secret;
+    }
 }

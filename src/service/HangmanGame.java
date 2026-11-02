@@ -53,4 +53,8 @@ public class HangmanGame {
     public GameState getGameState() {
         return gameState;
     }
+
+    public String getSecretWord() {
+        return word.getSecret();
+    }
 }
